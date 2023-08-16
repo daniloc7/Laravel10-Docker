@@ -5,6 +5,9 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 
+//IMPORTANTE PARA CRIACAO DE TESTES, CRIAR 100 REGISTROS POR EXEMPLO. 
+
+
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>
  */

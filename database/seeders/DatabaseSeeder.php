@@ -5,6 +5,7 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
+//INICIAR O PROJETO COM UM USUARIO(EXEMPLO), DEFAULT, SUPERADMIN
 class DatabaseSeeder extends Seeder
 {
     /**

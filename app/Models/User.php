@@ -8,9 +8,12 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
+//tabela users no BD
 class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
+
+    // protected $table = 'users'; //normalmente quando ja existe a tabela no bd, pra linkar.
 
     /**
      * The attributes that are mass assignable.
